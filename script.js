@@ -81,6 +81,7 @@ resetButt.addEventListener("click", function () {
   }
   h1.style.backgroundColor = "steelblue";
   message.textContent = ""
+  resetButt.textContent = "New Colors!"
 });
 
 easyButt.addEventListener("click", function () {
@@ -98,6 +99,7 @@ easyButt.addEventListener("click", function () {
     }
   }
   h1.style.backgroundColor = "steelblue";
+  resetButt.textContent = "New Colors!"
 });
 
 hardButt.addEventListener("click", function () {
@@ -112,4 +114,5 @@ hardButt.addEventListener("click", function () {
     squares[i].style.display = "block";
   }
   h1.style.backgroundColor = "steelblue";
+  resetButt.textContent = "New Colors!"
 });
